@@ -1,1 +1,4 @@
-
+将压缩包放到网站根木录下，使用phpstudy最方便（要使用对应机器版本的phpstudy）
+    需要修改文件fckeditor\editor\filemanager\browser\default\connectors\php\config.php中的参数
+    $Config['Enabled'] = True ;
+然后访问http://localhost/fckeditor/editor/filemanager/browser/default/connectors/test.html#
