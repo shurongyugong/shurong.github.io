@@ -2,3 +2,6 @@
     需要修改文件fckeditor\editor\filemanager\browser\default\connectors\php\config.php中的参数
     $Config['Enabled'] = True ;
 然后访问http://localhost/fckeditor/editor/filemanager/browser/default/connectors/test.html#
+
+
+这里面的phpstudy可以用于win7机器
